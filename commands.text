@@ -1,0 +1,7 @@
+chmod +x script.sh 
+docker cp script.sh jenkins:/opt 
+docker exec -it jenkins bash
+cat jenkins_home/secrets/initialAdminPassword
+docker-compose up -d 
+mkdir jenkins_home
+docker pull jenkins/jenkins  

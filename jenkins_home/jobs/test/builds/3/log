@@ -1,7 +1,0 @@
-Started by user [8mha:////4EZl5+Ga8mN3AFvv2CU/thJXEdz/1+XMq3sHWXmlN2uZAAAAlx+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAzWEgZu/dLi1CL9xJTczDwAj6GcLcAAAAA=[0madmin
-Running as SYSTEM
-Building in workspace /var/jenkins_home/workspace/test
-[test] $ /bin/sh -xe /tmp/jenkins8778521936405431370.sh
-+ /opt/script.sh Campos
-Hola, Campos 
-Finished: SUCCESS

@@ -2,4 +2,10 @@
 
 NOMBRE=$1
 APELLIDO=$2
-echo "Hola, $NOMBRE $APELLIDO"
+MOSTRAR=$3
+
+if [ "$MOSTRAR" = "true" ]; then
+	echo "Hola, $NOMBRE, $APELLIDO"
+else
+	echo "Si quieres ver el nombre, selecciona la casilla de MOSTRAR"
+fi

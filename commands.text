@@ -4,4 +4,8 @@ docker exec -it jenkins bash
 cat jenkins_home/secrets/initialAdminPassword
 docker-compose up -d 
 mkdir jenkins_home
-docker pull jenkins/jenkins  
+docker pull jenkins/jenkins
+ssh-keygen -f remote-key  
+ssh remote_user@remote_host
+ssh -i remote-key remote_user@remote_host
+docker cp remote-key jenkins:/tmp
